@@ -8,7 +8,7 @@ h1 {
 .f-color {
   color: orangered;
 }
-section {
+.sec-flex {
   display: flex;
 }
 .half-width {
@@ -41,4 +41,27 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.text {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+.shadow {
+  box-shadow: 20px 20px 50px rgba(128, 128, 128, 0.489);
+  margin: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  border-radius: 5%;
+}
+.goal {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+#goal {
+  border-left: 8px solid orangered;
+}
+#exp {
+  border-left: 8px solid orange;
 }
